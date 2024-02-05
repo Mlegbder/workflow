@@ -1,9 +1,9 @@
 package workflow
 
 import (
+	"github.com/Mlegbder/workflow/dao"
+	"github.com/Mlegbder/workflow/types"
 	"gorm.io/gorm"
-	"workflow/dao"
-	"workflow/types"
 )
 
 // WorkFlowHis 流程历史

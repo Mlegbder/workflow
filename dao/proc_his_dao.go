@@ -1,9 +1,9 @@
 package dao
 
 import (
+	"github.com/Mlegbder/workflow/model"
+	"github.com/Mlegbder/workflow/types"
 	"gorm.io/gorm"
-	"workflow/model"
-	"workflow/types"
 )
 
 type ProcHisDao struct {

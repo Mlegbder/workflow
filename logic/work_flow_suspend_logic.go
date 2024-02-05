@@ -3,12 +3,12 @@ package workflow
 import (
 	"encoding/json"
 	"errors"
+	"github.com/Mlegbder/workflow/consts"
+	"github.com/Mlegbder/workflow/dao"
+	"github.com/Mlegbder/workflow/model"
+	"github.com/Mlegbder/workflow/types"
 	"github.com/tidwall/gjson"
 	"gorm.io/gorm"
-	"workflow/consts"
-	"workflow/dao"
-	"workflow/model"
-	"workflow/types"
 )
 
 // WorkFlowSuspend 中止流程
